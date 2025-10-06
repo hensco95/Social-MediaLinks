@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+}
+ul {
+  list-style-type: none;
+}
+main {
+  /* margin: auto auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* padding: 10rem 3rem; */
+}
+.wrap {
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  width: 90vw;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 10px;
+}
+/* .wrap_inner {
+} */
+.person_img img {
+  width: 30%;
+  border-radius: 50%;
+}
+.person_tag {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+h5 {
+  color: hsl(75, 94%, 57%);
+}
+p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+}
+ul {
+  display: grid;
+  grid-row-gap: 1rem;
+}
+li {
+  /* padding: 1rem 0rem; */
+  padding: 0.7rem 0rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+}
+li:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  font-family: "Inter", sans-serif;
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 1200px) {
+  .wrap {
+    width: auto;
+  }
+}
